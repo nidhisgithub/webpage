@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>My Food App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        #header {
+            background-color: black;
+            height: 70px;
+        }
+
+        body {
+            background: linear-gradient(50deg, aqua, pink);
+        }
+
+        h1 {
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            margin-right: 30px;
+            color: cornsilk;
+        }
+
+        #title {
+            margin-top: 40px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #brand {
+            width: 40%;
+            float: left;
+            text-align: center;
+            line-height: 70px;
+            height: 70px;
+        }
+
+        #menu {
+            text-align: center;
+            width: 60%;
+            float: right;
+            line-height: 70px;
+            height: 70px;
+        }
+
+        #pizza {
+            margin-top: 30px;
+        }
+
+        #DelPizza , #burgers,#softDrinks{
+            background: linear-gradient(45deg, red, green);
+            width: 500px;
+            border-radius: 50%;
+            color: cornsilk;
+            padding: 20px;
+            margin: 20px auto;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #table1 {
+            width: 100%;
+            margin: 30px 0px;
+        }
+
+        #table1 img {
+            border-radius: 20px;
+            box-shadow: 0 0 10px black;
+        }
+        #footer{
+            background-color: black;
+            color: white;
+            margin: 30px 0px;
+            padding: 20px 0;
+        }
+        #table1 #itemNames{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            color: red;
+            font-weight: bold;
+        }
+        #footer p{
+            margin: 10px 0;
+        }
+
+        .fa {  
+  padding: 5px;  
+text-align: center;  
+  margin: 5px 2px;  
+  font-size: 20px;  
+  width: 20px;  
+  border-radius: 50%;
+}  
+.fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+}  
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}  
+
+.fa-linkedin {  
+  background: #007bb5;  
+  color: white;  
+}  
+.fa-instagram {  
+ color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+    </style>
+
+<body>
+    <div id="header">
+        <div id="brand">
+            <h1>My Food App</h1>
+        </div>
+        <div id="menu">
+            <a href="#">HOME</a>
+            <a href="#DelPizza">PIZZA</a>
+            <a href="#burgers">BURGER</a>
+            <a href="#softDrinks">SOFT DRINKS</a>
+
+
+        </div>
+    </div>
+    <div id="main">
+        <div id="title">
+            <h1><span> Yummy </span><span>Foods</span></h1>
+        </div>
+        <div id="pizza">
+            <div id="DelPizza">
+                <h3>Delicious Pizza</h3>
+            </div>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta doloribus pariatur possimus dolorem,
+                blanditiis quibusdam nulla atque, ad quam rem sed saepe quae porro nesciunt ducimus quasi optio! Qui rem
+                minus adipisci delectus quos dolore eos cum expedita, quam accusamus.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque exercitationem, officiis quibusdam,
+                dignissimos asperiores modi ullam deleniti blanditiis dolore aliquid non dolorem mollitia. Expedita quas
+                obcaecati harum, iure tempore, officia perferendis nisi aliquid, itaque quam unde architecto similique
+                vitae voluptate.</p>
+            <table id="table1">
+                <tr>
+                    <td>
+                        <img src="https://thecookreport.co.uk/wp-content/uploads/2019/07/Cheesy-Pasta-Bake-1.jpg"
+                            width="500px" height="300px" />
+                    </td>
+                    <td>
+                        <img src="https://joyfoodsunshine.com/wp-content/uploads/2016/09/easy-pizza-casserole-recipe-5.jpg"
+                            width="500px" height="300px" />
+
+                    </td>
+                </tr>
+                <tr  id="itemNames">
+                    <td>Cheesy Pasta Pizza </td>
+                    <td>Cassarole Pizza </td>
+
+                </tr>
+            </table>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non aspernatur sapiente nam nihil voluptatum
+                nesciunt nobis quaerat aperiam corrupti. Sed, commodi? Voluptate quam a obcaecati eveniet explicabo unde
+                harum eos optio cumque. Inventore repellat natus, fugiat aspernatur ad minima harum!
+            </p>
+        </div>
+        <div id="pizza">
+            <div id="burgers">
+                <h3>Burger World </h3>
+            </div>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta doloribus pariatur possimus dolorem,
+                blanditiis quibusdam nulla atque, ad quam rem sed saepe quae porro nesciunt ducimus quasi optio! Qui rem
+                minus adipisci delectus quos dolore eos cum expedita, quam accusamus.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque exercitationem, officiis quibusdam,
+                dignissimos asperiores modi ullam deleniti blanditiis dolore aliquid non dolorem mollitia. Expedita quas
+                obcaecati harum, iure tempore, officia perferendis nisi aliquid, itaque quam unde architecto similique
+                vitae voluptate.</p>
+            <table id="table1">
+                <tr>
+                    <td>
+                        <img src="https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180221133253/iStock-638875822.jpg"
+                            width="330px" height="300px" />
+                    </td>
+                    <td>
+                        <img src="https://th.bing.com/th/id/OIP.GEOG5TP0kF5pN7hM9inWcAHaHa?pid=ImgDet&rs=1"
+                            width="330px" height="300px" />
+
+                    </td>
+                    <td>
+                        <img src="https://i.pinimg.com/originals/8e/61/4f/8e614fcb8519613fbfe9f6c3de0472ee.jpg"
+                            width="330px" height="300px" />
+                    </td>
+                    <td>
+                        <img src="https://th.bing.com/th/id/R.48c4aabc47396285a0e7790ee959bb02?rik=LBzOtG2WDZeYMQ&riu=http%3a%2f%2fwww.hiltonheadmonthly.com%2fimages%2fstories%2ffood%2fbestburgers_0811.jpg&ehk=e8Ty%2bvdpjYHkNdpUvrZDELYHPSV0GZqjSam9dgZNQJM%3d&risl=&pid=ImgRaw&r=0"
+                            width="330px" height="300px" />
+
+                    </td>
+                </tr>
+                <tr id="itemNames">
+                    
+                    <td>Ham Burger </td>
+                    <td>Spicy Sausage Burger </td>
+                    <td>BBQ Burger </td>
+                    <td>Cheesy Burger Paradise</td>
+                </tr>
+            </table>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non aspernatur sapiente nam nihil voluptatum
+                nesciunt nobis quaerat aperiam corrupti. Sed, commodi? Voluptate quam a obcaecati eveniet explicabo unde
+                harum eos optio cumque. Inventore repellat natus, fugiat aspernatur ad minima harum!
+            </p>
+        </div>
+        <div id="pizza">
+            <div id="softDrinks">
+                <h3>Soft Drinks </h3>
+            </div>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta doloribus pariatur possimus dolorem,
+                blanditiis quibusdam nulla atque, ad quam rem sed saepe quae porro nesciunt ducimus quasi optio! Qui rem
+                minus adipisci delectus quos dolore eos cum expedita, quam accusamus.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque exercitationem, officiis quibusdam,
+                dignissimos asperiores modi ullam deleniti blanditiis dolore aliquid non dolorem mollitia. Expedita quas
+                obcaecati harum, iure tempore, officia perferendis nisi aliquid, itaque quam unde architecto similique
+                vitae voluptate.</p>
+            <table id="table1">
+                <tr>
+                    <td>
+                        <img src="https://wallpapercave.com/wp/wp3109420.jpg" width="330px" height="300px" />
+                    </td>
+                    <td>
+                        <img src="https://wallpapercave.com/wp/wp4217046.jpg" width="330px" height="300px" />
+
+                    </td>
+                    <td>
+                        <img src="https://wallpapercave.com/wp/wp4217040.jpg" width="330px" height="300px" />
+                    </td>
+                    <td>
+                        <img src="https://wallpapercave.com/wp/wp4217052.jpg" width="330px" height="300px" />
+
+                    </td>
+                </tr>
+                <tr id="itemNames">
+                    <td>Refreshing Lemonade </td>
+                    <td>Caribean Mocktails </td>
+                    <td>Beverages </td>
+                    <td>Martini Glass Drinks</td>
+                </tr>
+            </table>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non aspernatur sapiente nam nihil voluptatum
+                nesciunt nobis quaerat aperiam corrupti. Sed, commodi? Voluptate quam a obcaecati eveniet explicabo unde
+                harum eos optio cumque. Inventore repellat natus, fugiat aspernatur ad minima harum!
+            </p>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="socialLink">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>  
+            <a href="https://mobile.twitter.com/login" class="fa fa-twitter"></a>  
+            <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>  
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a> 
+        </div>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio vitae nemo veritatis esse sed mollitia doloremque maxime officia? Voluptate, eum optio est cupiditate, nostrum numquam ab consequatur molestias vero similique aperiam saepe doloribus expedita commodi odit, pariatur quis deleniti facilis! Excepturi vitae sed nostrum minus voluptatibus, at eveniet inventore optio soluta quos, obcaecati blanditiis modi rerum! Illum rem voluptates dolorum ratione accusantium neque, quisquam maiores enim totam exercitationem maxime ipsa numquam consequuntur voluptatem delectus quam sequi quos at, placeat nam, quia sint? Pariatur at numquam voluptatem adipisci eligendi eveniet obcaecati esse sed ipsum, quia, quaerat officia, inventore quas placeat rem.
+        </p>
+        <p>All Copy Rights © Reserved by Nidhi.</p>
+    </div>
+
+</body>
+</head>
+
+</html>
